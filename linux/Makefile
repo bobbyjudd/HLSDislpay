@@ -3,7 +3,7 @@ CC := gcc
 CCFLAGS := -Wall
 DBGFLAGS := -g
 CCOBJFLAGS := $(CCFLAGS) -c
-LIB_FLAGS := -lX11 -lXext -lpng
+LIB_FLAGS := -lX11 -lXext -lXrandr -lpng
 
 # path macros
 BIN_PATH := bin
